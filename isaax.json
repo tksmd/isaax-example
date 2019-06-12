@@ -1,13 +1,13 @@
 {
-  "name": "getting-started-isaax",
+  "name": "isaax example",
   "version": "",
   "description": "python - raspberry-pi",
   "main": "app.py",
-  "author": "",
+  "author": "Takashi Someda",
   "license": "",
-  "language":"python",
+  "language": "python",
   "scripts": {
-     "start": "python -u app.py"
-    },
-   "dependency": null
+    "start": "python -u app.py"
+  },
+  "dependency": null
 }
