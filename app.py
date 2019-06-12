@@ -4,7 +4,7 @@ import os
 
 
 def main():
-    interval = os.environ.get('APP_SLEEP_INTERVAL', 5)
+    interval = int(os.environ.get('APP_SLEEP_INTERVAL', 5))
     while True:
         print('Hello IoT from Isaax {0}'.format(interval))
         time.sleep(interval)
